@@ -1,0 +1,86 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-3049-r5vs4l"
+    ]
+  ],
+  "_from": "../d-117128-3049-eogvyg/package.tgz",
+  "_id": "todo@0.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/todo",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117128-3049-eogvyg/package.tgz",
+  "_shasum": "f0a0cab3ce931d84227c1da69c8f16d02484f4a7",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-3049-eogvyg/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-3049-r5vs4l",
+  "activationCommands": {
+    "atom-workspace": "todo:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/reergymerej/todo/issues"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "description": "an Atom package for finding TODO statements",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.3.0",
+    "eslint-plugin-react": "^5.2.2",
+    "mocha": "^2.5.3",
+    "react-addons-test-utils": "^15.1.0",
+    "sinon": "^1.17.4",
+    "sinon-chai": "^2.8.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/reergymerej/todo#readme",
+  "keywords": [
+    "todo",
+    "to-do",
+    "to do"
+  ],
+  "license": "MIT",
+  "main": "./lib/todo",
+  "name": "todo",
+  "optionalDependencies": {},
+  "readme": "# todo\n\nan Atom package for finding TODO statements\n\n[![Build Status](https://travis-ci.org/reergymerej/todo.svg?branch=master)](https://travis-ci.org/reergymerej/todo)\n\nUse <kbd>ctrl-k ctrl-t</kbd> to toggle a list of the **TODO** items in your project.  Click the item to jump to the source.\n\n![todo-demo](https://cloud.githubusercontent.com/assets/1720010/16488661/897a4370-3e9f-11e6-9b7b-53c90012a6c1.gif)\n\n*node_modules is usually ignored.  It was included in the demo just to demonstrate working with large projects.*\n\n## config\n\nTo configure options, open *Settings View: View Installed Packages*, find the \"todo\" package, and click *Settings*.\n\n* exclude directories (.gitignore directories are ignored automatically)\n* customize RegExp used to find items\n\n## Changes\n\nCheck out the [change log][changelog] for details about each version.\n\n[changelog]: ./CHANGELOG.md\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reergymerej/todo.git"
+  },
+  "scripts": {
+    "lint": "eslint {spec,lib}",
+    "test": "mocha spec --recursive --compilers js:babel-register"
+  },
+  "version": "0.6.0"
+}

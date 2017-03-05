@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-54222-12bj22m"
+    ]
+  ],
+  "_from": "../d-117128-54222-5jrgm3/package.tgz",
+  "_id": "atom-ignore@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atom-ignore",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117128-54222-5jrgm3/package.tgz",
+  "_shasum": "f0c9db12b0f8fdfd04de616c098733df779f0eaa",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-54222-5jrgm3/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-54222-12bj22m",
+  "bugs": {
+    "url": "https://github.com/jacquescrocker/atom-ignore/issues"
+  },
+  "dependencies": {
+    "ignore": "^3.1.2"
+  },
+  "description": "Use a .atomignore file to hide files & folder in tree view",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.199.0"
+  },
+  "homepage": "https://github.com/jacquescrocker/atom-ignore#readme",
+  "license": "MIT",
+  "main": "./lib/atom-ignore",
+  "name": "atom-ignore",
+  "optionalDependencies": {},
+  "readme": "# atom-ignore package\n\n> Use a .atomignore file to hide files & folder in tree view and fuzzy finder\n\n* * *\n\n## Feature\n\nSometimes, you want to hide some files & folders from the tree view. With Atom, you can make it globally, or for each project, *via* the `gitignore` file.  \nBut... if you don't want to hide file globally, or ignore them in your repo ?\n\nUse an `.atomignore` file in your projects !\n\nIt works like a regular `.gitignore` file, but only hides the files & folders in your Atom view.\n\n\n## Usage\n\nSimply add an `.atomignore` file in your project.\n\nYou can also control the state of hiding by using `atom-ignore:toggle`, `atom-ignore:enable` & `atom-ignore:disable` commands.\n\n## Keybindings\n\nWith the success of Atom, it's really difficult to choose keybindings that will not enter in conflict whit anyone else's packages, so I have removed the default keystrokes and let the keymap empty to let you set your own keybindings.\n\n\n## Caveats\n\nThis package monkey patches a key hook built into the default Atom packages TreeView, FuzzyFinder, and Find-and-Replace and for 'Exclude VCS Ignored Paths'. For this package to work, you need to have this option set to true, and there has to be a valid git repo associated with the project that has the `.atomignore` file in it. It doesn't work for random folders that aren't tracked by git (sorry, it was the only hook we could find!)\n\nAtom core **needs** better hooks to allow for useful packages to edit things on a per-project basis. Please support this issue on the following repo trackers:\n- https://github.com/atom/fuzzy-finder/issues\n- https://github.com/atom/tree-view/issues\n- https://github.com/atom/find-and-replace/issues\n\nAll 3 of these packages just needs to provide us a simple project specific config that other packages could set to exclude items. It'll make everyone's life would be a lot easier!\n\n\n\n## Forked from atom-tree-ignore\n\nhttps://github.com/leny/atom-tree-ignore\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacquescrocker/atom-ignore.git"
+  },
+  "version": "0.2.0"
+}

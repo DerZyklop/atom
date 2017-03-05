@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-57144-1vawrhz"
+    ]
+  ],
+  "_from": "../d-117128-57144-1tdaqbi/package.tgz",
+  "_id": "cake-syntax@1.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cake-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117128-57144-1tdaqbi/package.tgz",
+  "_shasum": "e9b7060a123dd1e4938c4b9f694f840a6a7031ff",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-57144-1tdaqbi/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-57144-1vawrhz",
+  "bugs": {
+    "url": "https://github.com/DanielPintilei/cake-atom-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Yummy syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/DanielPintilei/cake-atom-syntax#readme",
+  "keywords": [
+    "cake",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "cake-syntax",
+  "optionalDependencies": {},
+  "readme": "![Cake Logo](https://raw.githubusercontent.com/DanielPintilei/Cake/master/build/img/logo.png)\n\n\nYummy syntax theme for Atom, Brackets, Sublime Text and Visual Studio Code.\n\nhttps://danielpintilei.cf/Cake\n\n### License\n\nMIT © [Daniel Pintilei][website]\n\n[website]: http://danielpintilei.cf\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielPintilei/cake-atom-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.2"
+}

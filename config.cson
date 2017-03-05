@@ -1,0 +1,80 @@
+"*":
+  "atom-ignore":
+    enabled: false
+  "atom-perforce":
+    autoAdd: true
+    autoEdit: true
+    autoRevert: true
+  "atom-typescript": {}
+  "autocomplete-plus":
+    autoActivationDelay: 0
+  core:
+    disabledPackages: [
+      "markdown-preview-plus"
+      "symbols-tree-view"
+      "line-ending-selector"
+      "linter-scss-lint"
+      "status-bar"
+      "angular-2-typeScript-snippets"
+      "about"
+      "typewriter"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "firewatch-syntax"
+    ]
+  "custom-title":
+    template: "<% if (fileInProject) { %><%= relativeFilePath %> | <%= projectName %><% } else { %><%= filePath %><% } %>"
+  editor:
+    fontFamily: "Fira Mono"
+    fontSize: 15
+    invisibles:
+      eol: " "
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "21be2f4f-5327-4398-a00e-b56dc33ee158"
+  linter:
+    lintOnFly: false
+    showErrorTabFile: false
+    showErrorTabProject: false
+  "save-workspace-Workspaces":
+    Plano:
+      panes: [
+        {
+          tabs: [
+            "/Users/plano/S/plano/projects/scheduler.frontend.ng2/src/client/time-stamp/time-stamp-api.service.spec.ts"
+            "/Users/plano/S/plano/projects/scheduler.frontend.ng2/src/client/time-stamp/time-stamp-api.service.ts"
+            "atom://config"
+            "atom://find-and-replace/project-results"
+            "/Users/plano/S/plano/projects/scheduler.frontend.ng2/src/client/time-stamp/stopwatch/stopwatch.component.html"
+          ]
+        }
+      ]
+      projectPaths: [
+        "/Users/plano/S/plano/projects/scheduler.frontend.ng2"
+        "/Users/plano/S/plano/projects/scheduler.frontend.ng2/node_modules/bootstrap/scss"
+        "/Users/plano/S/plano/projects/scheduler.access/api/implementation_meta"
+      ]
+  "status-bar":
+    cursorPositionFormat: " "
+    fullWidth: false
+    selectionCountFormat: " "
+  typewriter:
+    scopes: "text.md,source.gfm,text.html.mediawiki,text.tex.latex,source.ts"
+  welcome:
+    showOnStartup: false
+".source.ts":
+  editor:
+    autoIndent: true
+    scrollPastEnd: true
+    showInvisibles: false
+    softWrapAtPreferredLineLength: true
+"source.ts":
+  editor:
+    softWrap: true
