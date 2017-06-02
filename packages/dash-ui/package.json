@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117423-5058-165mjmr.02k0jatt9"
+    ]
+  ],
+  "_from": "../d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+  "_id": "dash-ui@0.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/dash-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+  "_shasum": "fc4b22fb8d24a973514338231682b20add7f9afc",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5058-1cjiw6g.jbu14cayvi/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117423-5058-165mjmr.02k0jatt9",
+  "bugs": {
+    "url": "https://github.com/cpsdqs/dash-ui/issues"
+  },
+  "configSchema": {
+    "iconsEnabled": {
+      "title": "Enable File Icons",
+      "order": 1,
+      "description": "Disable this if you don't want to use the file icons.",
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "dependencies": {},
+  "description": "Matching UI theme for dash-syntax",
+  "devDependencies": {
+    "cson": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-webfont": "0.0.1-3"
+  },
+  "engines": {
+    "atom": ">=1.17.0 <2.0.0"
+  },
+  "homepage": "https://github.com/cpsdqs/dash-ui#readme",
+  "keywords": [
+    "ui",
+    "theme",
+    "dark"
+  ],
+  "license": "MIT",
+  "main": "./lib/dash-ui",
+  "name": "dash-ui",
+  "optionalDependencies": {},
+  "readme": "# dash-ui theme\n\nA matching UI theme for [dash-syntax](https://atom.io/themes/dash-syntax).\n\n![Screenshot](https://i.imgur.com/crhLq9Z.png)\n![Settings Screenshot](https://i.imgur.com/NlHG13r.png)\n![File icons](https://i.imgur.com/Zf9z6gw.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpsdqs/dash-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.3.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".js": [
+        "gulpfile.js"
+      ],
+      ".coffee": [
+        "lib/dash-ui.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

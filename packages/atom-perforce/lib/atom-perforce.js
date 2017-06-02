@@ -22,8 +22,7 @@ var atomPerforce = module, // sugary alias
         'P4TICKETS',
         'P4PASSWD',
         'P4CHARSET',
-        'HOME',
-        "PATH"
+        'HOME'
     ],
     clientStatusBarTile,
     environmentReady;

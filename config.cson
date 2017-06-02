@@ -6,29 +6,28 @@
     autoEdit: true
     autoRevert: true
   "atom-typescript": {}
-  "autocomplete-plus":
-    autoActivationDelay: 0
+  "autocomplete-plus": {}
   core:
     disabledPackages: [
       "markdown-preview-plus"
       "symbols-tree-view"
       "line-ending-selector"
       "linter-scss-lint"
-      "status-bar"
-      "angular-2-typeScript-snippets"
       "about"
       "typewriter"
+      "angular2-snippets"
+      "angular-2-typeScript-snippets"
     ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "firewatch-syntax"
+      "plano-syntax"
     ]
   "custom-title":
     template: "<% if (fileInProject) { %><%= relativeFilePath %> | <%= projectName %><% } else { %><%= filePath %><% } %>"
   editor:
-    fontFamily: "Fira Mono"
-    fontSize: 15
+    fontFamily: "Fira Mono, Operator Mono, Fira Code"
+    fontSize: 18
     invisibles:
       eol: " "
     preferredLineLength: 120
@@ -40,9 +39,15 @@
   "exception-reporting":
     userId: "21be2f4f-5327-4398-a00e-b56dc33ee158"
   linter:
+    errorPanelHeight: 27
     lintOnFly: false
     showErrorTabFile: false
     showErrorTabProject: false
+  "linter-sass-lint": {}
+  "linter-scss-lint": {}
+  "linter-tslint": {}
+  minimap:
+    displayCodeHighlights: false
   "save-workspace-Workspaces":
     Plano:
       panes: [
@@ -65,10 +70,22 @@
     cursorPositionFormat: " "
     fullWidth: false
     selectionCountFormat: " "
+  "sync-settings":
+    _lastBackupHash: "e2659de0d43931f8632f39ed5e163a0acd0c5d8e"
+    gistId: "690e65f94c95994f420e469523c76e4e"
+    personalAccessToken: "e478c63fd1e348a6d7466eb4c1d9acf5bcd50709"
+    quietUpdateCheck: true
+  "tabs-to-spaces": {}
+  "tomorrow-night-eighties-ng2-syntax": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   typewriter:
     scopes: "text.md,source.gfm,text.html.mediawiki,text.tex.latex,source.ts"
   welcome:
     showOnStartup: false
+".html.ng.text":
+  editor:
+    autoIndent: true
 ".source.ts":
   editor:
     autoIndent: true

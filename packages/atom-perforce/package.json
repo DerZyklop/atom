@@ -2,40 +2,40 @@
   "_args": [
     [
       {
-        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
-        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
         "type": "local"
       },
-      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-43128-1kzywkv"
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-11728-10121-1gbpljr"
     ]
   ],
-  "_from": "../d-117128-43128-1f16td/package.tgz",
+  "_from": "../d-11728-10121-1eo4w4y/package.tgz",
   "_id": "atom-perforce@1.7.9",
   "_inCache": true,
   "_installable": true,
   "_location": "/atom-perforce",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
-    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117128-43128-1f16td/package.tgz",
+  "_resolved": "file:../d-11728-10121-1eo4w4y/package.tgz",
   "_shasum": "e93c1422b1bdaada47c02a5e449b4284eba25349",
   "_shrinkwrap": null,
-  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117128-43128-1f16td/package.tgz",
-  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117128-43128-1kzywkv",
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11728-10121-1eo4w4y/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-11728-10121-1gbpljr",
   "author": {
     "name": "Matt Sawyer",
     "email": "matt.sawyer@gmail.com",

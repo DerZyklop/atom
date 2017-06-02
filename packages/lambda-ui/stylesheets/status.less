@@ -1,0 +1,46 @@
+
+status-bar {
+  background-color: @inset-panel-background-color;
+  border-top: 1px solid @tool-panel-border-color;
+  color: @text-color;
+}
+
+status-bar a {
+  color: @text-color;
+}
+status-bar .cursor-position a {
+  color: @text-color;
+}
+
+.grammar-status a,
+.encoding-status a,
+a.line-ending-tile {
+  color: @text-color-subtle;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding: 0px 2px 0px 0px;
+}
+
+.find-and-replace .options-label .options,
+.project-find .options-label .options {
+  color: @text-color-subtle;
+}
+
+.status-bar-vim-mode-insert {
+  color: @ui-site-color-1;
+}
+.status-bar-vim-mode-normal {
+  color: @text-color;
+}
+
+.git-view {
+  .commits-ahead-label {
+    color: @ui-site-color-1;
+  }
+  .commits-behind-label {
+    color: @text-color-error;
+  }
+  .status-modified {
+    color: @orange;
+  }
+}

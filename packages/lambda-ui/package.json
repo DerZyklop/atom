@@ -1,0 +1,73 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117423-5196-jcqnqh.opggy14i"
+    ]
+  ],
+  "_from": "../d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+  "_id": "lambda-ui@1.0.4",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/lambda-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+  "_shasum": "212c4dcd956f059b683381839ae9cfd611682964",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5196-1g3idhq.py80s2x1or/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117423-5196-jcqnqh.opggy14i",
+  "bugs": {
+    "url": "https://github.com/mattstyles/lambda-ui/issues"
+  },
+  "dependencies": {},
+  "description": "Minimalist dark low contrast theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/mattstyles/lambda-ui#readme",
+  "license": "MIT",
+  "name": "lambda-ui",
+  "optionalDependencies": {},
+  "readme": "# Lambda UI theme\n\nA minimalist dark low contrast UI theme for Atom.\n\nAccompanies the [lambda](https://github.com/mattstyles/lambda-syntax) syntax theme.\n\n## Installation\n\n```\napm install lambda-ui\n```\n\nThis theme can be activated by going to the _Themes_ section in the Settings view (`cmd-,`) and selecting it from the _UI Themes_ drop-down menu.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattstyles/lambda-ui.git"
+  },
+  "scripts": {
+    "prepublish": "rm -rf ./styles && cp -r ./stylesheets ./styles"
+  },
+  "theme": "ui",
+  "version": "1.0.4",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117423-5290-wjmbs1.y84dtsatt9"
+    ]
+  ],
+  "_from": "../d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+  "_id": "jsartisan-dark-minimalistic-ui@2.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/jsartisan-dark-minimalistic-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+  "_shasum": "11458f4347e7aa5296299336768eb1162424ee8b",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-117423-5290-m1dlur.f5y98dunmi/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-117423-5290-wjmbs1.y84dtsatt9",
+  "bugs": {
+    "url": "https://github.com/jsartisan/jsartisan-minimalistic-ui/issues"
+  },
+  "dependencies": {},
+  "description": "Dark UI Minimalistic Theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/jsartisan/jsartisan-minimalistic-ui#readme",
+  "license": "MIT",
+  "name": "jsartisan-dark-minimalistic-ui",
+  "optionalDependencies": {},
+  "readme": "# jsartisan-minimalistic-ui\n\n![alt text](https://github.com/jsartisan/jsartisan-minimalistic-ui/blob/master/screenshot.png?raw=true \"Screenshot\")\n\nsearch for package jsartisan-dark-minimalistic-ui or install via command line . :)\n\n```bash\napm install jsartisan-dark-minimalistic-ui\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsartisan/jsartisan-minimalistic-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.4.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

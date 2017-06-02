@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+        "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-11751-94774-1ggmxpp.q0bsnn4s4i"
+    ]
+  ],
+  "_from": "../d-11751-94774-3se2vs.lce4s4i/package.tgz",
+  "_id": "angular2-snippets@0.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/angular2-snippets",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+    "spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11751-94774-3se2vs.lce4s4i/package.tgz",
+  "_shasum": "e333333b37a5fc6fa695ab0cca12b0f2cf86f12c",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/d-11751-94774-3se2vs.lce4s4i/package.tgz",
+  "_where": "/private/var/folders/zm/2y2n81bd4g3gx4zg2v96xsk40000gr/T/apm-install-dir-11751-94774-1ggmxpp.q0bsnn4s4i",
+  "bugs": {
+    "url": "https://github.com/andresaraujo/atom-angular2-snippets/issues"
+  },
+  "dependencies": {},
+  "description": "Angular 2 snippets for Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/andresaraujo/atom-angular2-snippets#readme",
+  "keywords": [
+    "dart",
+    "dartlang",
+    "angular2",
+    "typescript"
+  ],
+  "license": "MIT",
+  "name": "angular2-snippets",
+  "optionalDependencies": {},
+  "readme": "Angular 2 Snippets for Atom\n================\n\nA collection of common Angular 2 snippets for Dart and Typescript \n\n### Imports\n* ng2_ng -> Snippet for importing Angular core library\n* ng2_boot -> Snippet for importing Angular bootstrap library\n* ng2_router -> Snippet for importing Angular router library\n\n### Components\n\n* ng2c -> Creates an Angular 2 component class\n\n### Directive\n\n* ng2d -> Creates an Angular 2 directive class\n\n### Service\n\n* ng2s -> Creates a service class annotated with ´@Injectable()´\n\n\n### Pipe\n\n* ng2p -> Creates an Angular 2 Pipe class\n\n\n### HTML\n\n* ng2For -> Creates a snippet for ngFor directive\n\n* ng2If -> Creates a snippet for ngIf directive\n\n* ng2Switch -> Creates a snippet for ngSwitch directive\n\n* ng2Class -> Creates a snippet for ngClass directive.\n\n* ng2Model -> Creates a snippet for ngModel directive.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresaraujo/atom-angular2-snippets.git"
+  },
+  "version": "0.4.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -23,6 +23,7 @@
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
   // color: white;
+  text-rendering: optimizeLegibility;
   // background-color: hsl(180, 24%, 12%);
 }
 
@@ -30,3 +31,55 @@ atom-text-editor {
 atom-text-editor .cursor {
   // border-color: red;
 }
+
+
+
+
+atom-workspace {
+  text-rendering: optimizeLegibility;
+}
+atom-text-editor.editor .syntax--string.syntax--quoted,
+atom-text-editor.editor .syntax--string.syntax--regexp {
+  //-webkit-font-feature-settings: "liga" off, "calt" off;
+  text-rendering: optimizeLegibility;
+}
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+}
+
+
+// atom-text-editor.editor .syntax--string.syntax--quoted,
+// atom-text-editor.editor .syntax--string.syntax--regexp {
+//   -webkit-font-feature-settings: "liga" off, "calt" off;
+// }
+
+// NOTE: Operator Mono specific styles [START]
+atom-text-editor.editor {
+  .syntax--storage.syntax--type.syntax--function.syntax--arrow,
+  .syntax--keyword.syntax--operator:not(.accessor),
+  .syntax--punctuation.syntax--definition {
+    font-family: "Fira Code";
+    text-rendering: optimizeLegibility;
+  }
+
+  // .syntax--string.syntax--quoted,
+  // .syntax--string.syntax--regexp {
+  //   -webkit-font-feature-settings: "liga" off, "calt" off;
+  // }
+}
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+  // -webkit-font-smoothing: antialiased;
+  font-family: "Fira Code";
+  // font-family: "Fira Mono";
+  //font-family: "Operator Mono";
+  // font-weight: 500;
+  // line-height: 1.7;
+}
+atom-text-editor.editor .syntax--comment {
+  font-family: "Operator Mono";
+  // font-family: "fantasque sans mono";
+  text-rendering: optimizeLegibility;
+}
+
+// NOTE: Operator Mono specific styles [END]
